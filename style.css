@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #f4f4f4, #c8b6ff);
+}
+
+#card-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.character {
+    background-color: #e9edc9;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.character:hover {
+    transform: scale(1.05);
+}
+
+.character .img-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.character .img-container img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.character .info {
+    text-align: center;
+}
+
+.character .name {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.character .alias,
+.character .current_inheritor,
+.character .allegiance,
+.character .height,
+.character .abilities {
+    display: block;
+    font-size: 0.9em;
+    color: #777;
+    margin: 5px 0;
+}

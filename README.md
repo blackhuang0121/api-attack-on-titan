@@ -1,6 +1,7 @@
 # api-attack-on-titan
 Use API get to acquire information of characters of Attack on Titan.
 本專案是透過 JavaScript 拉取 Attack on Titan API 的資料，動態生成角色卡片，顯示於網頁上。
+GitHub Pages link: https://blackhuang0121.github.io/api-attack-on-titan/
 
 ## 🧠 使用技術
 
